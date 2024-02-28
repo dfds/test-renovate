@@ -11,7 +11,7 @@
         "patch",
         "lockFileMaintenance"
       ],
-      "excludeDepNames": [
+      "ignoreDeps": [
         "required_version"
       ],
       "addLabels": [
@@ -27,7 +27,7 @@
       "addLabels": [
         "release:minor"
       ],
-      "excludeDepNames": [
+      "ignoreDeps": [
         "required_version"
       ],
       "stabilityDays": 7,
@@ -37,7 +37,7 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "excludeDepNames": [
+      "ignoreDeps": [
         "required_version"
       ],
       "addLabels": [
