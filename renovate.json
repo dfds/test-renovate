@@ -44,7 +44,7 @@
       "matchDepTypes": [
         "required_version"
       ],
-      "enabled": false
+      "enabled": true
     }
   ]
 }
