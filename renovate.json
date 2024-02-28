@@ -11,9 +11,6 @@
         "patch",
         "lockFileMaintenance"
       ],
-      "ignoreDeps": [
-        "required_version"
-      ],
       "addLabels": [
         "release:patch"
       ],
@@ -27,9 +24,6 @@
       "addLabels": [
         "release:minor"
       ],
-      "ignoreDeps": [
-        "required_version"
-      ],
       "stabilityDays": 7,
       "automerge": false
     },
@@ -37,14 +31,20 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "ignoreDeps": [
-        "required_version"
-      ],
       "addLabels": [
         "release:major"
       ],
       "stabilityDays": 14,
       "automerge": false
+    },
+    {
+      "packagePatterns": [
+        "terraform"
+      ],
+      "matchDepTypes": [
+        "required_version"
+      ],
+      "enabled": false
     }
   ]
 }
