@@ -11,6 +11,9 @@
         "patch",
         "lockFileMaintenance"
       ],
+      "excludeDepNames": [
+        "required_version"
+      ],
       "addLabels": [
         "release:patch"
       ],
@@ -24,6 +27,9 @@
       "addLabels": [
         "release:minor"
       ],
+      "excludeDepNames": [
+        "required_version"
+      ],
       "stabilityDays": 7,
       "automerge": false
     },
@@ -31,16 +37,14 @@
       "matchUpdateTypes": [
         "major"
       ],
+      "excludeDepNames": [
+        "required_version"
+      ],
       "addLabels": [
         "release:major"
       ],
       "stabilityDays": 14,
       "automerge": false
-    },
-    {
-      "excludeDepNames": [
-        "required_version"
-      ]
     }
   ]
 }
