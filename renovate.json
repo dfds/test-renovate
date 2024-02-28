@@ -31,6 +31,9 @@
       "matchUpdateTypes": [
         "major"
       ],
+      "excludeDepNames": [
+        "required_version"
+      ],
       "addLabels": [
         "release:major"
       ],
