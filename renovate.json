@@ -36,15 +36,6 @@
       ],
       "stabilityDays": 14,
       "automerge": false
-    },
-    {
-      "packagePatterns": [
-        "terraform"
-      ],
-      "matchDepTypes": [
-        "required_version"
-      ],
-      "enabled": true
     }
   ]
 }
