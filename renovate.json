@@ -31,14 +31,16 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "excludeDepNames": [
-        "required_version"
-      ],
       "addLabels": [
         "release:major"
       ],
       "stabilityDays": 14,
       "automerge": false
+    },
+    {
+      "excludeDepNames": [
+        "required_version"
+      ]
     }
   ]
 }
